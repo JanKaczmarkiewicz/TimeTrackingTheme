@@ -27,10 +27,10 @@ const App = () => {
   const EditButton = isTrack ? InactiveButton : ActiveButton;
 
   return (
-    <div className="flex flex-col w-1/2 m-auto gap-8">
+    <div className="flex flex-col w-1/3 m-auto gap-8">
       <h2 className="text-center text-2xl mt-4">4h 30m left</h2>
 
-      <div className="flex  rounded-lg border-2 border-gray">
+      <div className="flex rounded-lg border-2 border-gray">
         <EditButton onClick={() => setIsTrack(false)}>Edit</EditButton>
         <TrackButton onClick={() => setIsTrack(true)}>Track</TrackButton>
       </div>

@@ -23,10 +23,10 @@ const EditTab = () => {
 
         <form className="flex gap-4">
           <input
-            className="py-2 px-3 rounded-lg placeholder-lightGray bg-whiteSurface"
+            className="py-2 px-3 rounded-lg flex-1 placeholder-lightGray bg-whiteSurface"
             placeholder="Task id"
           />
-          <button className="flex py-2 text-black flex-1 justify-center bg-gray rounded-lg">
+          <button className="flex py-2 px-8 text-black justify-center bg-gray rounded-lg">
             Create
           </button>
         </form>
@@ -52,10 +52,10 @@ const EditTab = () => {
 
         <form className="flex gap-4">
           <input
-            className="py-2 px-3 rounded-lg placeholder-lightGray bg-whiteSurface"
+            className="py-2 px-3 rounded-lg flex-1 placeholder-lightGray bg-whiteSurface"
             placeholder="Task id"
           />
-          <button className="flex py-2 text-black flex-1 justify-center bg-gray rounded-lg">
+          <button className="flex py-2 px-8 text-black justify-center bg-gray rounded-lg">
             Create
           </button>
         </form>
